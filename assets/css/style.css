@@ -1,5 +1,3 @@
-
-
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -607,7 +605,7 @@ section {
   position: relative;
   overflow: hidden;
   z-index: 1;
-  background: rgba(69, 80, 91, 0.8);
+  /* background: rgba(69, 80, 91, 0.8); */
 }
 
 .portfolio .portfolio-wrap::before {
@@ -1382,10 +1380,10 @@ section {
   height: 200px;
   object-fit: contain;
   object-position: center;
-  background: #fff;
-  border-radius: 10px;
+  /* background: #fff; */   /* Optional: remove if you want transparent/underlying color */
+  /* border-radius: 10px; */ /* Remove or set to 0 for square corners */
   box-shadow: 0 2px 8px rgba(0,0,0,0.04);
-  padding: 12px;
+  /* padding: 12px; */      /* Remove or set to 0 for no extra space */
 }
 #hero .social-links a i {
   color: #001f3f !important;
