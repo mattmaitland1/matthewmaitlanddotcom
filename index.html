@@ -1,268 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Matthew Maitland</title>
+  <meta name="description" content="Matthew Maitland is a data scientist at EY focused on classical machine learning, with an M.Eng in Computer Science from Cornell Tech.">
+  <link rel="icon" href="assets/img/favicon_final.jpg">
+  <style>
+    :root {
+      --ink: #12243a;
+      --muted: #5b6570;
+      --link: #0563bb;
+      --bg: #f7f5f1;
+    }
 
-  <title>Matthew Maitland - Data Scientist & Machine Learning Engineer</title>
-  <meta content="Matthew Maitland is a Data Scientist and Machine Learning Engineer with a Master's in Computer Science at Cornell Tech. Specializing in ML applications, data analysis, and AI solutions." name="description">
-  <meta content="Matthew Maitland, Data Scientist, Machine Learning Engineer, Cornell Tech, Computer Science, AI, ML, Data Analysis" name="keywords">
+    * {
+      box-sizing: border-box;
+    }
 
-  <!-- Favicons -->
-  <link href="assets/img/favicon_final.jpg" rel="icon">
-  <link href="assets/img/favicon_final.jpg" rel="apple-touch-icon">
+    html, body {
+      margin: 0;
+      padding: 0;
+    }
 
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+    body {
+      min-height: 100vh;
+      background: var(--bg);
+      color: var(--ink);
+      font-family: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, "Times New Roman", serif;
+      line-height: 1.6;
+    }
 
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    main {
+      max-width: 38rem;
+      margin: 0 auto;
+      padding: 18vh 1.5rem 4rem;
+    }
 
-  <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
+    h1 {
+      margin: 0 0 0.35rem;
+      font-size: clamp(2rem, 5vw, 2.75rem);
+      font-weight: 600;
+      letter-spacing: -0.02em;
+      line-height: 1.15;
+    }
 
- 
+    .lede {
+      margin: 0 0 2rem;
+      color: var(--muted);
+      font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+      font-size: 0.95rem;
+      letter-spacing: 0.01em;
+    }
+
+    .bio p {
+      margin: 0 0 1.15rem;
+      font-size: 1.08rem;
+    }
+
+    .bio p:last-child {
+      margin-bottom: 0;
+    }
+
+    .links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.85rem 1.35rem;
+      margin: 2.25rem 0 0;
+      padding: 0;
+      list-style: none;
+      font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+      font-size: 0.95rem;
+    }
+
+    a {
+      color: var(--link);
+      text-decoration: none;
+      border-bottom: 1px solid transparent;
+    }
+
+    a:hover,
+    a:focus-visible {
+      border-bottom-color: currentColor;
+    }
+
+    @media (max-width: 640px) {
+      main {
+        padding-top: 12vh;
+      }
+    }
+  </style>
 </head>
-
 <body>
+  <main>
+    <h1>Matthew Maitland</h1>
+    <p class="lede">Data scientist at EY</p>
 
-  <!-- ======= Mobile nav toggle button ======= -->
-  <!-- <button type="button" class="mobile-nav-toggle d-xl-none"><i class="bi bi-list mobile-nav-toggle"></i></button> -->
-  <i class="bi bi-list mobile-nav-toggle d-lg-none"></i>
-  <!-- ======= Header ======= -->
-  <header id="header" class="d-flex flex-column justify-content-center">
-
-    <nav id="navbar" class="navbar nav-menu">
-      <ul>
-        <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
-        <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
-        <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Portfolio</span></a></li>
-      </ul>
-    </nav>
-
-  </header><!-- End Header -->
-
-  <!-- ======= Hero Section ======= -->
-  <section id="hero" class="d-flex flex-column justify-content-center">
-    <div class="container" data-aos="zoom-in" data-aos-delay="100">
-      <h1>Matthew Maitland</h1>
-      <p>I'm a <span class="typed" data-typed-items="Master of Engineering, AI/Quant Consultant, Data Scientist, Machine Learning Engineer, Software Engineer"></span></p>
-      <div class="social-links">
-        <a href="mailto:mjm638@cornell.edu" target=blank class="email">
-          <i class="bx bx-envelope"></i>
-          <span class="icon-label">Email</span>
-        </a>
-        <a href="https://www.linkedin.com/in/matthew-maitland-07589b206/" target=blank class="linkedin">
-          <i class="bx bxl-linkedin"></i>
-          <span class="icon-label">LinkedIn</span>
-        </a>
-        <a href="https://github.com/mattmaitland1" class="github" target=blank>
-          <i class="bx bxl-github"></i>
-          <span class="icon-label">GitHub</span>
-        </a>
-        <a href="resume.pdf" target="_blank" class="resume">
-          <i class="bx bx-file-blank"></i>
-          <span class="icon-label">Resume</span>
-        </a>
-      </div>
+    <div class="bio">
+      <p>
+        I'm Matthew, a data scientist at EY focused on classical machine learning. I have an M.Eng in Computer Science from Cornell Tech, and I apply quantitative methods to real-world problems&mdash;from a document-retrieval tool for private-equity due diligence to an alternative credit-scoring platform for underserved communities.
+      </p>
+      <p>
+        Before Cornell Tech, I interned at Cisco Systems and Barstool Sports, turning raw data into actionable insights with classical modeling and deep-learning pipelines. I earned my B.S. in Information Science at Cornell University, focusing on data science and NLP.
+      </p>
+      <p>
+        Beyond AI/ML, I coach a youth ski team in Stratton, VT, and rarely miss a Yankees, Rangers, or Packers game.
+      </p>
     </div>
-  </section><!-- End Hero -->
 
-  <main id="main">
-
-    <!-- ======= About Section ======= -->
-    <section id="about" class="about">
-      <div class="container" data-aos="fade-up">
-        <div class="section-title">
-          <h2>About</h2>
-        </div>
-        <div class="about-flex-row">
-          <img src="assets/img/updated_headshot.JPG" class="img-fluid about-img" alt="">
-          <div class="about-text">
-            <p>
-              I'm Matthew, a data scientist with an M.Eng in Computer Science from Cornell Tech. I apply machine learning and quantitative methods to solve complex, real-world problems—everything from a document-retrieval tool for private-equity due diligence to an alternative credit-scoring platform for underserved communities. You can find my resume above and projects' source code on my GitHub.
-            </p>
-            <p>
-              Before Cornell Tech, I interned at Cisco Systems and Barstool Sports, where I turned raw data into actionable insights using both classical modeling techniques and deep-learning pipelines. I earned my B.S. in Information Science at Cornell University, focusing on data science and NLP.
-            </p>
-            <p>
-              Beyond AI/ML, I coach a youth ski team in Stratton, VT, and rarely miss an opportunity to watch a Yankees, Rangers, or Packers game on TV.
-            </p>
-          </div>
-        </div>
-      </div>
-    </section><!-- End About Section -->
-
-    <!-- ======= Portfolio Section ======= -->
-    <section id="portfolio" class="portfolio section-bg">
-      <div class="container" data-aos="fade-up">
-        <div class="section-title">
-          <h2>Portfolio</h2>
-          <p>Explore some of my recent and older projects!</p>
-        </div>
-        <div class="row">
-          <div class="col-lg-12 d-flex justify-content-center" data-aos="fade-up" data-aos-delay="100">
-            <ul id="portfolio-flters">
-              <li data-filter=".filter-recent" class="filter-active">Recent</li>
-              <li data-filter=".filter-older">Older</li>
-            </ul>
-          </div>
-        </div>
-        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
-          <!-- Recent Projects -->
-          <div class="col-lg-4 col-md-6 portfolio-item filter-recent">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/minitorch.png" class="img-fluid" alt="MiniTorch">
-              <div class="portfolio-info">
-                <h4>MiniTorch</h4>
-                <p>Recent</p>
-                <div class="portfolio-links">
-                  <a href="portfolio-details-minitorch.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 portfolio-item filter-recent">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/fake_news.jpeg" class="img-fluid" alt="Fake News Detection">
-              <div class="portfolio-info">
-                <h4>Fake News Detection</h4>
-                <p>Recent</p>
-                <div class="portfolio-links">
-                  <a href="portfolio-details-fake-news.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 portfolio-item filter-recent">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/movies.jpg" class="img-fluid" alt="Movie Ratings by Review Text">
-              <div class="portfolio-info">
-                <h4>Movie Ratings by Review Text</h4>
-                <p>Recent</p>
-                <div class="portfolio-links">
-                  <a href="portfolio-details-movies.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- Older Projects -->
-          <div class="col-lg-4 col-md-6 portfolio-item filter-older">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/speeches_logo.jpeg" class="img-fluid" alt="NLP Analysis of Presidential Speeches">
-              <div class="portfolio-info">
-                <h4>NLP Analysis of Presidential Speeches</h4>
-                <p>Older</p>
-                <div class="portfolio-links">
-                  <a href="portfolio-details-nlp.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 portfolio-item filter-older">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/qol.jpg" class="img-fluid" alt="Quality of Life Visualizations">
-              <div class="portfolio-info">
-                <h4>Quality of Life Visualizations</h4>
-                <p>Older</p>
-                <div class="portfolio-links">
-                  <a href="portfolio-details-qol.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 portfolio-item filter-older">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/dj.jpg" class="img-fluid" alt="Derek Jeter Offensive Analysis">
-              <div class="portfolio-info">
-                <h4>Derek Jeter Offensive Analysis</h4>
-                <p>Older</p>
-                <div class="portfolio-links">
-                  <a href="portfolio-details-jeter.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 portfolio-item filter-older">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/medals.jpeg" class="img-fluid" alt="Olympic Medals Visualizations">
-              <div class="portfolio-info">
-                <h4>Olympic Medals Visualizations</h4>
-                <p>Older</p>
-                <div class="portfolio-links">
-                  <a href="portfolio-details-medals.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 portfolio-item filter-older">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/spotify.jpg" class="img-fluid" alt="Spotify Song Popularity Predictor">
-              <div class="portfolio-info">
-                <h4>Spotify Song Popularity Predictor</h4>
-                <p>Older</p>
-                <div class="portfolio-links">
-                  <a href="portfolio-details-spotify.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section><!-- End Portfolio Section -->
-
-  </main><!-- End #main -->
-
-  <!-- ======= Footer ======= -->
-  <footer id="footer">
-    <div class="container">
-      <h3>Matthew Maitland</h3>
-      <div class="social-links">
-        <a href="mailto:mjm638@cornell.edu" target=blank class="email">
-          <i class="bx bx-envelope"></i>
-          <span class="icon-label">Email</span>
-        </a>
-        <a href="https://www.linkedin.com/in/matthew-maitland-07589b206/" target=blank class="linkedin">
-          <i class="bx bxl-linkedin"></i>
-          <span class="icon-label">LinkedIn</span>
-        </a>
-        <a href="https://github.com/mattmaitland1" class="github" target=blank>
-          <i class="bx bxl-github"></i>
-          <span class="icon-label">GitHub</span>
-        </a>
-        <a href="resume.pdf" target="_blank" class="resume">
-          <i class="bx bx-file-blank"></i>
-          <span class="icon-label">Resume</span>
-        </a>
-      </div>
-      
-    </div>
-  </footer><!-- End Footer -->
-
-  <div id="preloader"></div>
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
-
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/typed.js/typed.umd.js"></script>
-  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-  <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
-
-  <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
-
+    <ul class="links">
+      <li><a href="mailto:matthew@matthewmaitland.com">matthew@matthewmaitland.com</a></li>
+      <li><a href="https://www.linkedin.com/in/matthew-maitland-07589b206/" target="_blank" rel="noopener">LinkedIn</a></li>
+      <li><a href="https://github.com/mattmaitland1" target="_blank" rel="noopener">GitHub</a></li>
+    </ul>
+  </main>
 </body>
-
 </html>
